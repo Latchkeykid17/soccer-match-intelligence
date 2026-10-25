@@ -1,0 +1,515 @@
+{
+  "match_id": "SYN-00007",
+  "seed": 7,
+  "synthetic": true,
+  "competition": "Synthetic Premier Cup (fictional)",
+  "venue": "North Field Arena",
+  "weather": "overcast",
+  "pitch": {
+    "length_m": 105.0,
+    "width_m": 68.0
+  },
+  "coordinates": "metres; x 0-105 left to right, y 0-68; home attacks right in period 1",
+  "home": {
+    "name": "Riverside Rovers",
+    "short_name": "RIV",
+    "colours": [
+      "#0B7A3B",
+      "#F2C200"
+    ],
+    "formation": "4-4-2",
+    "starting_xi": [
+      {
+        "id": "RIV-1",
+        "name": "Jonas Keller",
+        "number": 1,
+        "position": "GK",
+        "attributes": {
+          "passing": 72,
+          "finishing": 52,
+          "pace": 60,
+          "tackling": 50,
+          "dribbling": 49,
+          "stamina": 82
+        }
+      },
+      {
+        "id": "RIV-6",
+        "name": "Felix Nakamura",
+        "number": 6,
+        "position": "RB",
+        "attributes": {
+          "passing": 68,
+          "finishing": 44,
+          "pace": 65,
+          "tackling": 66,
+          "dribbling": 51,
+          "stamina": 85
+        }
+      },
+      {
+        "id": "RIV-36",
+        "name": "Rafael Castellano",
+        "number": 36,
+        "position": "CB",
+        "attributes": {
+          "passing": 57,
+          "finishing": 42,
+          "pace": 49,
+          "tackling": 70,
+          "dribbling": 40,
+          "stamina": 80
+        }
+      },
+      {
+        "id": "RIV-8",
+        "name": "Elias Adeyemi",
+        "number": 8,
+        "position": "CB",
+        "attributes": {
+          "passing": 66,
+          "finishing": 56,
+          "pace": 66,
+          "tackling": 69,
+          "dribbling": 56,
+          "stamina": 87
+        }
+      },
+      {
+        "id": "RIV-25",
+        "name": "Marco Bianchi",
+        "number": 25,
+        "position": "LB",
+        "attributes": {
+          "passing": 59,
+          "finishing": 77,
+          "pace": 85,
+          "tackling": 81,
+          "dribbling": 60,
+          "stamina": 70
+        }
+      },
+      {
+        "id": "RIV-39",
+        "name": "Jamal Fontaine",
+        "number": 39,
+        "position": "RM",
+        "attributes": {
+          "passing": 80,
+          "finishing": 77,
+          "pace": 67,
+          "tackling": 40,
+          "dribbling": 81,
+          "stamina": 69
+        }
+      },
+      {
+        "id": "RIV-15",
+        "name": "Noah Abara",
+        "number": 15,
+        "position": "CM",
+        "attributes": {
+          "passing": 62,
+          "finishing": 44,
+          "pace": 78,
+          "tackling": 40,
+          "dribbling": 45,
+          "stamina": 78
+        }
+      },
+      {
+        "id": "RIV-3",
+        "name": "Jonas Adeyemi",
+        "number": 3,
+        "position": "CM",
+        "attributes": {
+          "passing": 53,
+          "finishing": 40,
+          "pace": 69,
+          "tackling": 44,
+          "dribbling": 48,
+          "stamina": 85
+        }
+      },
+      {
+        "id": "RIV-4",
+        "name": "Mateo Holm",
+        "number": 4,
+        "position": "LM",
+        "attributes": {
+          "passing": 57,
+          "finishing": 84,
+          "pace": 58,
+          "tackling": 52,
+          "dribbling": 71,
+          "stamina": 91
+        }
+      },
+      {
+        "id": "RIV-33",
+        "name": "Andre Keller",
+        "number": 33,
+        "position": "ST",
+        "attributes": {
+          "passing": 76,
+          "finishing": 68,
+          "pace": 83,
+          "tackling": 60,
+          "dribbling": 74,
+          "stamina": 81
+        }
+      },
+      {
+        "id": "RIV-30",
+        "name": "Omar Nakamura",
+        "number": 30,
+        "position": "ST",
+        "attributes": {
+          "passing": 64,
+          "finishing": 84,
+          "pace": 64,
+          "tackling": 68,
+          "dribbling": 80,
+          "stamina": 74
+        }
+      }
+    ],
+    "bench": [
+      {
+        "id": "RIV-19",
+        "name": "Yusuf Quinn",
+        "number": 19,
+        "position": "RM",
+        "attributes": {
+          "passing": 69,
+          "finishing": 47,
+          "pace": 72,
+          "tackling": 54,
+          "dribbling": 64,
+          "stamina": 83
+        }
+      },
+      {
+        "id": "RIV-9",
+        "name": "Leon Ibarra",
+        "number": 9,
+        "position": "LB",
+        "attributes": {
+          "passing": 57,
+          "finishing": 59,
+          "pace": 80,
+          "tackling": 69,
+          "dribbling": 46,
+          "stamina": 74
+        }
+      },
+      {
+        "id": "RIV-28",
+        "name": "Jonas Holm",
+        "number": 28,
+        "position": "ST",
+        "attributes": {
+          "passing": 86,
+          "finishing": 40,
+          "pace": 78,
+          "tackling": 40,
+          "dribbling": 52,
+          "stamina": 82
+        }
+      },
+      {
+        "id": "RIV-31",
+        "name": "Emeka Kowalski",
+        "number": 31,
+        "position": "GK",
+        "attributes": {
+          "passing": 66,
+          "finishing": 57,
+          "pace": 52,
+          "tackling": 53,
+          "dribbling": 59,
+          "stamina": 76
+        }
+      },
+      {
+        "id": "RIV-29",
+        "name": "Jonas Novak",
+        "number": 29,
+        "position": "RW",
+        "attributes": {
+          "passing": 71,
+          "finishing": 74,
+          "pace": 85,
+          "tackling": 57,
+          "dribbling": 95,
+          "stamina": 79
+        }
+      },
+      {
+        "id": "RIV-32",
+        "name": "Bruno Kowalski",
+        "number": 32,
+        "position": "ST",
+        "attributes": {
+          "passing": 49,
+          "finishing": 55,
+          "pace": 68,
+          "tackling": 45,
+          "dribbling": 83,
+          "stamina": 83
+        }
+      }
+    ]
+  },
+  "away": {
+    "name": "Northgate Athletic",
+    "short_name": "NGA",
+    "colours": [
+      "#C8102E",
+      "#1A1A1A"
+    ],
+    "formation": "4-4-2",
+    "starting_xi": [
+      {
+        "id": "NGA-1",
+        "name": "Noah Osei",
+        "number": 1,
+        "position": "GK",
+        "attributes": {
+          "passing": 48,
+          "finishing": 46,
+          "pace": 62,
+          "tackling": 58,
+          "dribbling": 70,
+          "stamina": 49
+        }
+      },
+      {
+        "id": "NGA-35",
+        "name": "Hugo Romero",
+        "number": 35,
+        "position": "RB",
+        "attributes": {
+          "passing": 72,
+          "finishing": 40,
+          "pace": 79,
+          "tackling": 85,
+          "dribbling": 58,
+          "stamina": 77
+        }
+      },
+      {
+        "id": "NGA-3",
+        "name": "Mateo Petrov",
+        "number": 3,
+        "position": "CB",
+        "attributes": {
+          "passing": 59,
+          "finishing": 51,
+          "pace": 58,
+          "tackling": 68,
+          "dribbling": 65,
+          "stamina": 61
+        }
+      },
+      {
+        "id": "NGA-15",
+        "name": "Noah Larsen",
+        "number": 15,
+        "position": "CB",
+        "attributes": {
+          "passing": 70,
+          "finishing": 52,
+          "pace": 57,
+          "tackling": 75,
+          "dribbling": 40,
+          "stamina": 79
+        }
+      },
+      {
+        "id": "NGA-38",
+        "name": "Liam Quinn",
+        "number": 38,
+        "position": "LB",
+        "attributes": {
+          "passing": 73,
+          "finishing": 45,
+          "pace": 66,
+          "tackling": 59,
+          "dribbling": 67,
+          "stamina": 82
+        }
+      },
+      {
+        "id": "NGA-25",
+        "name": "Hugo Quinn",
+        "number": 25,
+        "position": "RM",
+        "attributes": {
+          "passing": 74,
+          "finishing": 67,
+          "pace": 63,
+          "tackling": 48,
+          "dribbling": 90,
+          "stamina": 70
+        }
+      },
+      {
+        "id": "NGA-11",
+        "name": "Caleb Keller",
+        "number": 11,
+        "position": "CM",
+        "attributes": {
+          "passing": 71,
+          "finishing": 45,
+          "pace": 83,
+          "tackling": 78,
+          "dribbling": 73,
+          "stamina": 78
+        }
+      },
+      {
+        "id": "NGA-24",
+        "name": "Caleb Kowalski",
+        "number": 24,
+        "position": "CM",
+        "attributes": {
+          "passing": 61,
+          "finishing": 41,
+          "pace": 42,
+          "tackling": 55,
+          "dribbling": 67,
+          "stamina": 86
+        }
+      },
+      {
+        "id": "NGA-19",
+        "name": "Mateo Okafor",
+        "number": 19,
+        "position": "LM",
+        "attributes": {
+          "passing": 70,
+          "finishing": 58,
+          "pace": 79,
+          "tackling": 62,
+          "dribbling": 93,
+          "stamina": 95
+        }
+      },
+      {
+        "id": "NGA-2",
+        "name": "Hugo Varga",
+        "number": 2,
+        "position": "ST",
+        "attributes": {
+          "passing": 72,
+          "finishing": 75,
+          "pace": 61,
+          "tackling": 51,
+          "dribbling": 69,
+          "stamina": 87
+        }
+      },
+      {
+        "id": "NGA-26",
+        "name": "Luca Castellano",
+        "number": 26,
+        "position": "ST",
+        "attributes": {
+          "passing": 73,
+          "finishing": 68,
+          "pace": 65,
+          "tackling": 55,
+          "dribbling": 83,
+          "stamina": 70
+        }
+      }
+    ],
+    "bench": [
+      {
+        "id": "NGA-4",
+        "name": "Mateo Brennan",
+        "number": 4,
+        "position": "CB",
+        "attributes": {
+          "passing": 59,
+          "finishing": 54,
+          "pace": 54,
+          "tackling": 51,
+          "dribbling": 56,
+          "stamina": 65
+        }
+      },
+      {
+        "id": "NGA-33",
+        "name": "Niko Mendes",
+        "number": 33,
+        "position": "RM",
+        "attributes": {
+          "passing": 74,
+          "finishing": 60,
+          "pace": 68,
+          "tackling": 76,
+          "dribbling": 54,
+          "stamina": 64
+        }
+      },
+      {
+        "id": "NGA-32",
+        "name": "Dario Quinn",
+        "number": 32,
+        "position": "ST",
+        "attributes": {
+          "passing": 58,
+          "finishing": 73,
+          "pace": 57,
+          "tackling": 49,
+          "dribbling": 95,
+          "stamina": 66
+        }
+      },
+      {
+        "id": "NGA-18",
+        "name": "Sven Ferreira",
+        "number": 18,
+        "position": "GK",
+        "attributes": {
+          "passing": 54,
+          "finishing": 47,
+          "pace": 76,
+          "tackling": 53,
+          "dribbling": 60,
+          "stamina": 76
+        }
+      },
+      {
+        "id": "NGA-22",
+        "name": "Ruben Novak",
+        "number": 22,
+        "position": "CM",
+        "attributes": {
+          "passing": 74,
+          "finishing": 47,
+          "pace": 67,
+          "tackling": 54,
+          "dribbling": 68,
+          "stamina": 82
+        }
+      },
+      {
+        "id": "NGA-10",
+        "name": "Hugo Bianchi",
+        "number": 10,
+        "position": "ST",
+        "attributes": {
+          "passing": 69,
+          "finishing": 77,
+          "pace": 74,
+          "tackling": 53,
+          "dribbling": 75,
+          "stamina": 79
+        }
+      }
+    ]
+  }
+}

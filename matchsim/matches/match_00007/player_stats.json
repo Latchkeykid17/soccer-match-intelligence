@@ -1,0 +1,8337 @@
+{
+ "match_id": "SYN-00007",
+ "score": {
+  "home": 0,
+  "away": 3
+ },
+ "teams": {
+  "home": {
+   "name": "Riverside Rovers",
+   "goals": 0,
+   "shots": 11,
+   "shots_on_target": 3,
+   "xg": 0.22,
+   "big_chances": 0,
+   "passes": 578,
+   "passes_completed": 491,
+   "final_third_entries": 56,
+   "pressures": 317,
+   "tackles": 13,
+   "tackles_won": 4,
+   "interceptions": 23,
+   "turnovers": 65,
+   "fouls": 5,
+   "yellow_cards": 1,
+   "red_cards": 0,
+   "corners": 0,
+   "saves": 3,
+   "possession": 0.512,
+   "pass_accuracy": 0.849,
+   "xgot": 0.8,
+   "np_xg": 0.22,
+   "headed_shots": 0,
+   "xa": 0.2,
+   "line_breaking_passes": 56,
+   "chances_created": 9,
+   "big_chances_created": 0,
+   "long_balls_completed": 68,
+   "dribbles_completed": 4,
+   "duels_won": 43,
+   "aerials_won": 35,
+   "clearances": 3,
+   "blocks": 1,
+   "recoveries": 39,
+   "possession_won_final_third": 26,
+   "touches_opp_box": 39,
+   "distance_km": 124.7,
+   "sprints": 237
+  },
+  "away": {
+   "name": "Northgate Athletic",
+   "goals": 3,
+   "shots": 9,
+   "shots_on_target": 6,
+   "xg": 1.4,
+   "big_chances": 1,
+   "passes": 494,
+   "passes_completed": 402,
+   "final_third_entries": 38,
+   "pressures": 209,
+   "tackles": 7,
+   "tackles_won": 3,
+   "interceptions": 23,
+   "turnovers": 65,
+   "fouls": 7,
+   "yellow_cards": 0,
+   "red_cards": 0,
+   "corners": 3,
+   "saves": 3,
+   "possession": 0.488,
+   "pass_accuracy": 0.814,
+   "xgot": 3.47,
+   "np_xg": 1.4,
+   "headed_shots": 3,
+   "xa": 0.5,
+   "line_breaking_passes": 48,
+   "chances_created": 5,
+   "big_chances_created": 0,
+   "long_balls_completed": 63,
+   "dribbles_completed": 9,
+   "duels_won": 34,
+   "aerials_won": 22,
+   "clearances": 1,
+   "blocks": 2,
+   "recoveries": 42,
+   "possession_won_final_third": 22,
+   "touches_opp_box": 39,
+   "distance_km": 122.6,
+   "sprints": 193
+  }
+ },
+ "players": [
+  {
+   "player_id": "NGA-26",
+   "name": "Luca Castellano",
+   "number": 26,
+   "position": "ST",
+   "team": "away",
+   "team_name": "Northgate Athletic",
+   "minutes_played": 77,
+   "rating": 9.4,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 1,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0.78,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 1.31,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0.78,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 4,
+      "rank": 3,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 2,
+      "rank": 3,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 1,
+      "rank": 2,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 31.1,
+      "rank": 17,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 9.31,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 2.26,
+      "rank": 6,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.33,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 16,
+      "rank": 15,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 2,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0.48,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 39,
+      "rank": 9,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 78.0,
+      "rank": 23,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 7,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 41.2,
+      "rank": 25,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 3,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": null,
+      "rank": null,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 1,
+      "rank": 17,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 14.3,
+      "rank": 22,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 1,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 14.3,
+      "rank": 22,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 63,
+      "rank": 9,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 16,
+      "rank": 3,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 1,
+      "rank": 3,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 10,
+      "rank": 6,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 4,
+      "rank": 5,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 1,
+      "rank": 20,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 6,
+      "rank": 5,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 8,
+      "rank": 3,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 1,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 0.16,
+      "rank": 8,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "NGA-2",
+   "name": "Hugo Varga",
+   "number": 2,
+   "position": "ST",
+   "team": "away",
+   "team_name": "Northgate Athletic",
+   "minutes_played": 97,
+   "rating": 9.2,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 2,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0.62,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 2.16,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0.62,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 5,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 4,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 2,
+      "rank": 1,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 31.9,
+      "rank": 13,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 11.95,
+      "rank": 3,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 2.62,
+      "rank": 3,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.62,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 26,
+      "rank": 3,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 41,
+      "rank": 8,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 82.0,
+      "rank": 19,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 10,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 62.5,
+      "rank": 13,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 2,
+      "rank": 13,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 1,
+      "rank": 5,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": 100.0,
+      "rank": 1,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 6,
+      "rank": 3,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 54.5,
+      "rank": 12,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 4,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 44.4,
+      "rank": 17,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 70,
+      "rank": 7,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 20,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 14,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 1,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 6,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 2,
+      "rank": 26,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 7,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 10,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 1,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 0.22,
+      "rank": 10,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "RIV-33",
+   "name": "Andre Keller",
+   "number": 33,
+   "position": "ST",
+   "team": "home",
+   "team_name": "Riverside Rovers",
+   "minutes_played": 97,
+   "rating": 8.5,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0.16,
+      "rank": 3,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0.8,
+      "rank": 3,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0.16,
+      "rank": 3,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 8,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 3,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 34.1,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 12.2,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 2.73,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.71,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 33,
+      "rank": 1,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0.03,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 63,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 88.7,
+      "rank": 8,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 18,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 72.0,
+      "rank": 8,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 1,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 1,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": 0.0,
+      "rank": null,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 8,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 44.4,
+      "rank": 17,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 5,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 41.7,
+      "rank": 19,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 104,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 24,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 1,
+      "rank": 24,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 1,
+      "rank": 3,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 22,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 3,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 7,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 1,
+      "rank": 20,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 12,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 15,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 2,
+      "rank": 25,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 3,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 1.4,
+      "rank": 19,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "RIV-15",
+   "name": "Noah Abara",
+   "number": 15,
+   "position": "CM",
+   "team": "home",
+   "team_name": "Riverside Rovers",
+   "minutes_played": 97,
+   "rating": 8.4,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 33.0,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 11.52,
+      "rank": 7,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 2.04,
+      "rank": 8,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.57,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 24,
+      "rank": 5,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0.05,
+      "rank": 3,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 65,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 79.3,
+      "rank": 21,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 4,
+      "rank": 10,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 66.7,
+      "rank": 9,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 17,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 4,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": null,
+      "rank": null,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 4,
+      "rank": 6,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 100.0,
+      "rank": 1,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 4,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 100.0,
+      "rank": 1,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 101,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 7,
+      "rank": 8,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 4,
+      "rank": 5,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 1,
+      "rank": 20,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 2,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 1,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 3,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 1.4,
+      "rank": 19,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "NGA-1",
+   "name": "Noah Osei",
+   "number": 1,
+   "position": "GK",
+   "team": "away",
+   "team_name": "Northgate Athletic",
+   "minutes_played": 97,
+   "rating": 7.8,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 8.26,
+      "rank": 19,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 0.16,
+      "rank": 28,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 30,
+      "rank": 14,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 88.2,
+      "rank": 9,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 5,
+      "rank": 8,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 83.3,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 4,
+      "rank": 6,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": null,
+      "rank": null,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 4,
+      "rank": 6,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 57.1,
+      "rank": 11,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 4,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 57.1,
+      "rank": 12,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 37,
+      "rank": 19,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 3,
+      "rank": 15,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 3,
+      "rank": 10,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 1,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 0.22,
+      "rank": 10,
+      "of": 28
+     },
+     {
+      "stat": "Saves",
+      "value": 3,
+      "rank": 1,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "NGA-24",
+   "name": "Caleb Kowalski",
+   "number": 24,
+   "position": "CM",
+   "team": "away",
+   "team_name": "Northgate Athletic",
+   "minutes_played": 97,
+   "rating": 7.7,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 29.4,
+      "rank": 25,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 11.53,
+      "rank": 6,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 2.02,
+      "rank": 9,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.38,
+      "rank": 13,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 17,
+      "rank": 13,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0.01,
+      "rank": 5,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 47,
+      "rank": 6,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 75.8,
+      "rank": 24,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 3,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 37.5,
+      "rank": 27,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 17,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 1,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 2,
+      "rank": 3,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": 40.0,
+      "rank": 7,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 6,
+      "rank": 3,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 46.2,
+      "rank": 16,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 3,
+      "rank": 9,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 42.9,
+      "rank": 18,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 79,
+      "rank": 5,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 3,
+      "rank": 28,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 1,
+      "rank": 3,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 11,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 1,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 6,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 1,
+      "rank": 20,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 4,
+      "rank": 7,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 1,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 0.22,
+      "rank": 10,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "RIV-30",
+   "name": "Omar Nakamura",
+   "number": 30,
+   "position": "ST",
+   "team": "home",
+   "team_name": "Riverside Rovers",
+   "minutes_played": 78,
+   "rating": 7.4,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0.01,
+      "rank": 5,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0.01,
+      "rank": 5,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 1,
+      "rank": 5,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 32.2,
+      "rank": 11,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 9.32,
+      "rank": 15,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 1.88,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.49,
+      "rank": 10,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 21,
+      "rank": 9,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0.11,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 60,
+      "rank": 3,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 82.2,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 4,
+      "rank": 10,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 57.1,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 1,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 3,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 3,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": 100.0,
+      "rank": 1,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 7,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 63.6,
+      "rank": 10,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 3,
+      "rank": 9,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 60.0,
+      "rank": 11,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 95,
+      "rank": 3,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 13,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 2,
+      "rank": 1,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 12,
+      "rank": 3,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 1,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 3,
+      "rank": 7,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 2,
+      "rank": 26,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 8,
+      "rank": 3,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 8,
+      "rank": 3,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 2,
+      "rank": 25,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 3,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 1.4,
+      "rank": 19,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 1,
+      "rank": 28,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "RIV-3",
+   "name": "Jonas Adeyemi",
+   "number": 3,
+   "position": "CM",
+   "team": "home",
+   "team_name": "Riverside Rovers",
+   "minutes_played": 97,
+   "rating": 7.3,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 31.8,
+      "rank": 15,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 12.12,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 2.64,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.51,
+      "rank": 6,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 23,
+      "rank": 7,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 57,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 82.6,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 3,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 50.0,
+      "rank": 19,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 16,
+      "rank": 3,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": 0.0,
+      "rank": null,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 1,
+      "rank": 17,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 25.0,
+      "rank": 21,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 1,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 33.3,
+      "rank": 20,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 78,
+      "rank": 6,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 1,
+      "rank": 24,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 1,
+      "rank": 3,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 7,
+      "rank": 8,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 2,
+      "rank": 8,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 5,
+      "rank": 6,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 3,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 1.4,
+      "rank": 19,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "RIV-4",
+   "name": "Mateo Holm",
+   "number": 4,
+   "position": "LM",
+   "team": "home",
+   "team_name": "Riverside Rovers",
+   "minutes_played": 97,
+   "rating": 7.2,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 30.7,
+      "rank": 20,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 11.84,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 2.51,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.54,
+      "rank": 5,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 25,
+      "rank": 4,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0.01,
+      "rank": 5,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 26,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 81.2,
+      "rank": 20,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 7,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 58.3,
+      "rank": 17,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 2,
+      "rank": 13,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 1,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": null,
+      "rank": null,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 4,
+      "rank": 6,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 66.7,
+      "rank": 8,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 4,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 66.7,
+      "rank": 8,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 40,
+      "rank": 17,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 1,
+      "rank": 6,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 8,
+      "rank": 7,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 5,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 3,
+      "rank": 10,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 3,
+      "rank": 5,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 3,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 1.4,
+      "rank": 19,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "NGA-15",
+   "name": "Noah Larsen",
+   "number": 15,
+   "position": "CB",
+   "team": "away",
+   "team_name": "Northgate Athletic",
+   "minutes_played": 97,
+   "rating": 7.0,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 30.9,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 10.99,
+      "rank": 14,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 1.45,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.36,
+      "rank": 14,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 15,
+      "rank": 18,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 36,
+      "rank": 11,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 87.8,
+      "rank": 10,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 3,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 60.0,
+      "rank": 15,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 3,
+      "rank": 8,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": null,
+      "rank": null,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 0.0,
+      "rank": null,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 0.0,
+      "rank": null,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 53,
+      "rank": 10,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 11,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 2,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 9,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 1,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 0.22,
+      "rank": 10,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "NGA-25",
+   "name": "Hugo Quinn",
+   "number": 25,
+   "position": "RM",
+   "team": "away",
+   "team_name": "Northgate Athletic",
+   "minutes_played": 75,
+   "rating": 7.0,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 31.2,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 8.95,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 1.48,
+      "rank": 17,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.39,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 17,
+      "rank": 13,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 28,
+      "rank": 17,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 93.3,
+      "rank": 3,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 3,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 75.0,
+      "rank": 7,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 4,
+      "rank": 6,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 1,
+      "rank": 5,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": 100.0,
+      "rank": 1,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 3,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 37.5,
+      "rank": 19,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 2,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 28.6,
+      "rank": 21,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 43,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 1,
+      "rank": 3,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 4,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 2,
+      "rank": 8,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 2,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 1,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 0.14,
+      "rank": 6,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "NGA-11",
+   "name": "Caleb Keller",
+   "number": 11,
+   "position": "CM",
+   "team": "away",
+   "team_name": "Northgate Athletic",
+   "minutes_played": 97,
+   "rating": 7.0,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 33.7,
+      "rank": 3,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 11.43,
+      "rank": 10,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 1.84,
+      "rank": 14,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.59,
+      "rank": 3,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 27,
+      "rank": 2,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0.01,
+      "rank": 5,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 53,
+      "rank": 5,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 84.1,
+      "rank": 15,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 5,
+      "rank": 8,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 62.5,
+      "rank": 13,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 8,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 1,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 2,
+      "rank": 3,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": 66.7,
+      "rank": 5,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 3,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 37.5,
+      "rank": 19,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 1,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 50.0,
+      "rank": 13,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 84,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 1,
+      "rank": 24,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 1,
+      "rank": 3,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 4,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 2,
+      "rank": 8,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 2,
+      "rank": 26,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 2,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 3,
+      "rank": 28,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 1,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 0.22,
+      "rank": 10,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "RIV-36",
+   "name": "Rafael Castellano",
+   "number": 36,
+   "position": "CB",
+   "team": "home",
+   "team_name": "Riverside Rovers",
+   "minutes_played": 97,
+   "rating": 6.9,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 29.6,
+      "rank": 23,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 11.05,
+      "rank": 13,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 1.49,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.36,
+      "rank": 14,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 18,
+      "rank": 12,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 37,
+      "rank": 10,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 86.0,
+      "rank": 11,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 3,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 50.0,
+      "rank": 19,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 3,
+      "rank": 8,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": null,
+      "rank": null,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 4,
+      "rank": 6,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 100.0,
+      "rank": 1,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 4,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 100.0,
+      "rank": 1,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 52,
+      "rank": 11,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 2,
+      "rank": 1,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 5,
+      "rank": 11,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 1,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 2,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 2,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 3,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 1.4,
+      "rank": 19,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "RIV-8",
+   "name": "Elias Adeyemi",
+   "number": 8,
+   "position": "CB",
+   "team": "home",
+   "team_name": "Riverside Rovers",
+   "minutes_played": 97,
+   "rating": 6.8,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 32.1,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 11.34,
+      "rank": 11,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 2.09,
+      "rank": 7,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.51,
+      "rank": 6,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 24,
+      "rank": 5,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 44,
+      "rank": 7,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 89.8,
+      "rank": 7,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 3,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 60.0,
+      "rank": 15,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 6,
+      "rank": 5,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": null,
+      "rank": null,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 2,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 50.0,
+      "rank": 13,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 2,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 66.7,
+      "rank": 8,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 66,
+      "rank": 8,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 2,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 1,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 1,
+      "rank": 17,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 1,
+      "rank": 21,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 3,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 1.4,
+      "rank": 19,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "RIV-9",
+   "name": "Leon Ibarra",
+   "number": 9,
+   "position": "LB",
+   "team": "home",
+   "team_name": "Riverside Rovers",
+   "minutes_played": 20,
+   "rating": 6.7,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 29.2,
+      "rank": 26,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 2.33,
+      "rank": 28,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 0.42,
+      "rank": 26,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.04,
+      "rank": 26,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 2,
+      "rank": 26,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 12,
+      "rank": 25,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 100.0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 3,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 100.0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 1,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": null,
+      "rank": null,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 1,
+      "rank": 17,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 50.0,
+      "rank": 13,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 1,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 50.0,
+      "rank": 13,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 13,
+      "rank": 25,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "NGA-38",
+   "name": "Liam Quinn",
+   "number": 38,
+   "position": "LB",
+   "team": "away",
+   "team_name": "Northgate Athletic",
+   "minutes_played": 97,
+   "rating": 6.6,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 32.6,
+      "rank": 9,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 11.72,
+      "rank": 5,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 2.29,
+      "rank": 5,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.5,
+      "rank": 9,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 22,
+      "rank": 8,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 29,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 85.3,
+      "rank": 14,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 8,
+      "rank": 3,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 66.7,
+      "rank": 9,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 3,
+      "rank": 8,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": null,
+      "rank": null,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 3,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 75.0,
+      "rank": 7,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 2,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 100.0,
+      "rank": 1,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 46,
+      "rank": 14,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 1,
+      "rank": 3,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 1,
+      "rank": 20,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 1,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 1,
+      "rank": 21,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 1,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 0.22,
+      "rank": 10,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "RIV-39",
+   "name": "Jamal Fontaine",
+   "number": 39,
+   "position": "RM",
+   "team": "home",
+   "team_name": "Riverside Rovers",
+   "minutes_played": 60,
+   "rating": 6.5,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 32.7,
+      "rank": 7,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 7.21,
+      "rank": 21,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 1.35,
+      "rank": 19,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.34,
+      "rank": 17,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 16,
+      "rank": 15,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 13,
+      "rank": 23,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 92.9,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 4,
+      "rank": 10,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 80.0,
+      "rank": 5,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 3,
+      "rank": 8,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": null,
+      "rank": null,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 0.0,
+      "rank": null,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 0.0,
+      "rank": null,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 17,
+      "rank": 24,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 1,
+      "rank": 3,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 1,
+      "rank": 20,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 1,
+      "rank": 21,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 3,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 1.19,
+      "rank": 18,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "NGA-32",
+   "name": "Dario Quinn",
+   "number": 32,
+   "position": "ST",
+   "team": "away",
+   "team_name": "Northgate Athletic",
+   "minutes_played": 20,
+   "rating": 6.5,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 30.1,
+      "rank": 22,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 2.49,
+      "rank": 26,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 0.54,
+      "rank": 24,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.08,
+      "rank": 24,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 3,
+      "rank": 24,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 13,
+      "rank": 23,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 92.9,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 2,
+      "rank": 24,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 66.7,
+      "rank": 9,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": null,
+      "rank": null,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 0.0,
+      "rank": null,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 0.0,
+      "rank": null,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 19,
+      "rank": 23,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 3,
+      "rank": 5,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 2,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 1,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 1,
+      "rank": 17,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 2,
+      "rank": 6,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 0.06,
+      "rank": 3,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "RIV-6",
+   "name": "Felix Nakamura",
+   "number": 6,
+   "position": "RB",
+   "team": "home",
+   "team_name": "Riverside Rovers",
+   "minutes_played": 97,
+   "rating": 6.4,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 31.9,
+      "rank": 13,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 11.52,
+      "rank": 7,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 2.01,
+      "rank": 10,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.51,
+      "rank": 6,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 21,
+      "rank": 9,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 35,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 85.4,
+      "rank": 13,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 7,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 63.6,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 1,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": null,
+      "rank": null,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 1,
+      "rank": 17,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 100.0,
+      "rank": 1,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 1,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 100.0,
+      "rank": 1,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 50,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 2,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 1,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 1,
+      "rank": 17,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 3,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 1.4,
+      "rank": 19,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "NGA-35",
+   "name": "Hugo Romero",
+   "number": 35,
+   "position": "RB",
+   "team": "away",
+   "team_name": "Northgate Athletic",
+   "minutes_played": 97,
+   "rating": 6.4,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 32.8,
+      "rank": 6,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 11.19,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 1.86,
+      "rank": 13,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.36,
+      "rank": 14,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 16,
+      "rank": 15,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 30,
+      "rank": 14,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 90.9,
+      "rank": 6,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 4,
+      "rank": 10,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 80.0,
+      "rank": 5,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 1,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": null,
+      "rank": null,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 0.0,
+      "rank": null,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 0.0,
+      "rank": null,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 44,
+      "rank": 15,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 1,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 0.22,
+      "rank": 10,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "RIV-1",
+   "name": "Jonas Keller",
+   "number": 1,
+   "position": "GK",
+   "team": "home",
+   "team_name": "Riverside Rovers",
+   "minutes_played": 97,
+   "rating": 6.3,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 8.04,
+      "rank": 20,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 0.34,
+      "rank": 27,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 34,
+      "rank": 13,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 94.4,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 4,
+      "rank": 10,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 100.0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 2,
+      "rank": 13,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": null,
+      "rank": null,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 4,
+      "rank": 6,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 80.0,
+      "rank": 5,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 4,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 80.0,
+      "rank": 6,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 39,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 1,
+      "rank": 20,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 1,
+      "rank": 17,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 3,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 1.4,
+      "rank": 19,
+      "of": 28
+     },
+     {
+      "stat": "Saves",
+      "value": 3,
+      "rank": 1,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "RIV-25",
+   "name": "Marco Bianchi",
+   "number": 25,
+   "position": "LB",
+   "team": "home",
+   "team_name": "Riverside Rovers",
+   "minutes_played": 77,
+   "rating": 6.3,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 34.0,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 9.08,
+      "rank": 17,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 1.63,
+      "rank": 15,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.29,
+      "rank": 19,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 11,
+      "rank": 19,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 25,
+      "rank": 19,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 78.1,
+      "rank": 22,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 4,
+      "rank": 10,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 40.0,
+      "rank": 26,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 2,
+      "rank": 13,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": null,
+      "rank": null,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 4,
+      "rank": 6,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 80.0,
+      "rank": 5,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 4,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 80.0,
+      "rank": 6,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 35,
+      "rank": 20,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 1,
+      "rank": 20,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 1,
+      "rank": 17,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 3,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 1.4,
+      "rank": 19,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "NGA-19",
+   "name": "Mateo Okafor",
+   "number": 19,
+   "position": "LM",
+   "team": "away",
+   "team_name": "Northgate Athletic",
+   "minutes_played": 97,
+   "rating": 6.3,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 32.4,
+      "rank": 10,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 11.49,
+      "rank": 9,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 2.0,
+      "rank": 11,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.46,
+      "rank": 11,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 20,
+      "rank": 11,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 23,
+      "rank": 20,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 63.9,
+      "rank": 28,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 7,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 46.7,
+      "rank": 24,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 3,
+      "rank": 8,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 3,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": 100.0,
+      "rank": 1,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 6,
+      "rank": 3,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 66.7,
+      "rank": 8,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 3,
+      "rank": 9,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 50.0,
+      "rank": 13,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 50,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 7,
+      "rank": 8,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 2,
+      "rank": 8,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 1,
+      "rank": 20,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 4,
+      "rank": 7,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 2,
+      "rank": 6,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 1,
+      "rank": 2,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 1,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 0.22,
+      "rank": 10,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "RIV-19",
+   "name": "Yusuf Quinn",
+   "number": 19,
+   "position": "RM",
+   "team": "home",
+   "team_name": "Riverside Rovers",
+   "minutes_played": 37,
+   "rating": 6.2,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 32.7,
+      "rank": 7,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 4.67,
+      "rank": 23,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 0.92,
+      "rank": 21,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.24,
+      "rank": 20,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 10,
+      "rank": 20,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 14,
+      "rank": 22,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 82.4,
+      "rank": 17,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 3,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 100.0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 1,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 1,
+      "rank": 5,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": 50.0,
+      "rank": 6,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 3,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 42.9,
+      "rank": 18,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 2,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 66.7,
+      "rank": 8,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 25,
+      "rank": 22,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 1,
+      "rank": 24,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 2,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 2,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 2,
+      "rank": 25,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 0.21,
+      "rank": 9,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "RIV-28",
+   "name": "Jonas Holm",
+   "number": 28,
+   "position": "ST",
+   "team": "home",
+   "team_name": "Riverside Rovers",
+   "minutes_played": 20,
+   "rating": 6.1,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0.05,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0.05,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 2,
+      "rank": 4,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 32.9,
+      "rank": 5,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 2.49,
+      "rank": 26,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 0.5,
+      "rank": 25,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.2,
+      "rank": 21,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 9,
+      "rank": 21,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 6,
+      "rank": 28,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 85.7,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 1,
+      "rank": 28,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 50.0,
+      "rank": 19,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": null,
+      "rank": null,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 0.0,
+      "rank": null,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 0.0,
+      "rank": null,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 10,
+      "rank": 28,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 1,
+      "rank": 6,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 1,
+      "rank": 20,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 1,
+      "rank": 17,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 1,
+      "rank": 21,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "NGA-3",
+   "name": "Mateo Petrov",
+   "number": 3,
+   "position": "CB",
+   "team": "away",
+   "team_name": "Northgate Athletic",
+   "minutes_played": 60,
+   "rating": 6.0,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 30.6,
+      "rank": 21,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 6.55,
+      "rank": 22,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 1.2,
+      "rank": 20,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.11,
+      "rank": 23,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 5,
+      "rank": 23,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 17,
+      "rank": 21,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 70.8,
+      "rank": 25,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 2,
+      "rank": 24,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 50.0,
+      "rank": 19,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 1,
+      "rank": 18,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": null,
+      "rank": null,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 1,
+      "rank": 17,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 100.0,
+      "rank": 1,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 1,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 100.0,
+      "rank": 1,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 29,
+      "rank": 21,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 4,
+      "rank": 12,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 4,
+      "rank": 7,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 0.14,
+      "rank": 6,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "NGA-4",
+   "name": "Mateo Brennan",
+   "number": 4,
+   "position": "CB",
+   "team": "away",
+   "team_name": "Northgate Athletic",
+   "minutes_played": 37,
+   "rating": 5.8,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 29.6,
+      "rank": 23,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 3.94,
+      "rank": 24,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 0.55,
+      "rank": 23,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.06,
+      "rank": 25,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 3,
+      "rank": 24,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 7,
+      "rank": 27,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 70.0,
+      "rank": 26,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 2,
+      "rank": 24,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 50.0,
+      "rank": 19,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 2,
+      "rank": 13,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": null,
+      "rank": null,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": null,
+      "rank": null,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": null,
+      "rank": null,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 13,
+      "rank": 25,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 0.08,
+      "rank": 4,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  },
+  {
+   "player_id": "NGA-33",
+   "name": "Niko Mendes",
+   "number": 33,
+   "position": "RM",
+   "team": "away",
+   "team_name": "Northgate Athletic",
+   "minutes_played": 22,
+   "rating": 5.7,
+   "sections": {
+    "Shooting": [
+     {
+      "stat": "Goals",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected goals (xG)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "xG on target (xGOT)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Non-penalty xG",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Shots on target",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Headed shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Physical performance": [
+     {
+      "stat": "Top speed (km/h)",
+      "value": 30.8,
+      "rank": 19,
+      "of": 28
+     },
+     {
+      "stat": "Distance covered (km)",
+      "value": 2.76,
+      "rank": 25,
+      "of": 28
+     },
+     {
+      "stat": "Running (km)",
+      "value": 0.6,
+      "rank": 22,
+      "of": 28
+     },
+     {
+      "stat": "Sprinting (km)",
+      "value": 0.13,
+      "rank": 22,
+      "of": 28
+     },
+     {
+      "stat": "Number of sprints",
+      "value": 6,
+      "rank": 22,
+      "of": 28
+     }
+    ],
+    "Passing": [
+     {
+      "stat": "Assists",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Expected assists (xA)",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes",
+      "value": 9,
+      "rank": 26,
+      "of": 28
+     },
+     {
+      "stat": "Successful passes %",
+      "value": 69.2,
+      "rank": 27,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls",
+      "value": 2,
+      "rank": 24,
+      "of": 28
+     },
+     {
+      "stat": "Accurate long balls %",
+      "value": 33.3,
+      "rank": 28,
+      "of": 28
+     },
+     {
+      "stat": "Line-breaking passes",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Big chances created",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Possession": [
+     {
+      "stat": "Successful dribbles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Successful dribbles %",
+      "value": null,
+      "rank": null,
+      "of": 9
+     },
+     {
+      "stat": "Duels won",
+      "value": 1,
+      "rank": 17,
+      "of": 28
+     },
+     {
+      "stat": "Duels won %",
+      "value": 50.0,
+      "rank": 13,
+      "of": 27
+     },
+     {
+      "stat": "Aerial duels won",
+      "value": 1,
+      "rank": 16,
+      "of": 28
+     },
+     {
+      "stat": "Aerial duels won %",
+      "value": 50.0,
+      "rank": 13,
+      "of": 27
+     },
+     {
+      "stat": "Touches",
+      "value": 13,
+      "rank": 25,
+      "of": 28
+     },
+     {
+      "stat": "Touches in opposition box",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dispossessed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Fouls won",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     }
+    ],
+    "Defending": [
+     {
+      "stat": "Defensive contributions",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Tackles",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Interceptions",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Blocked shots",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Fouls committed",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Recoveries",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Possession won final 3rd",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Dribbled past",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Clearances",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Clean sheets",
+      "value": 0,
+      "rank": null,
+      "of": 28
+     },
+     {
+      "stat": "Goals conceded while on pitch",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "xG against while on pitch",
+      "value": 0.08,
+      "rank": 4,
+      "of": 28
+     }
+    ],
+    "Discipline": [
+     {
+      "stat": "Yellow cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     },
+     {
+      "stat": "Red cards",
+      "value": 0,
+      "rank": 1,
+      "of": 28
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MatchLens</title>
+  <meta name="description" content="Live match intelligence: every key moment explained, in your language, your way.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="scoreboard" aria-live="polite">
+    <div class="brand">MatchLens</div>
+    <div class="score">
+      <span class="team home"><i class="kit" id="kit-home"></i><span id="name-home">Home</span></span>
+      <span class="digits"><b id="score-home">0</b><span class="dash">–</span><b id="score-away">0</b></span>
+      <span class="team away"><span id="name-away">Away</span><i class="kit" id="kit-away"></i></span>
+    </div>
+    <div class="clock"><span id="clock">0'</span><span class="phase" id="phase" hidden></span></div>
+    <div class="momentum" title="Share of attacking threat, last 5 minutes">
+      <div class="bar"><span id="mom-home"></span><span id="mom-away"></span></div>
+      <small>Who's on top</small>
+    </div>
+    <div class="focus-tile" id="focus-tile" hidden>
+      <small id="focus-label"></small>
+      <span id="focus-value"></span>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="stage">
+      <div class="pitch-wrap">
+        <canvas id="pitch" aria-label="Live pitch view with player positions"></canvas>
+        <div class="overlay corner_badge" id="ov-corner_badge" hidden></div>
+        <div class="overlay full_banner" id="ov-full_banner" hidden></div>
+        <div class="overlay lower_third" id="ov-lower_third" hidden></div>
+        <div class="empty" id="empty">
+          <p>Pick a match and press <b>Start match</b>. Every key moment will be explained as it happens.</p>
+        </div>
+      </div>
+
+      <div class="controls">
+        <label>Match <select id="match-select"></select></label>
+        <button id="new-match" type="button" class="quiet">New match</button>
+        <button id="start" type="button" class="primary">Start match</button>
+        <button id="pause" type="button" disabled>Pause</button>
+        <div class="speed" role="group" aria-label="Playback speed">
+          <button type="button" data-speed="30">30×</button>
+          <button type="button" data-speed="60" aria-pressed="true">60×</button>
+          <button type="button" data-speed="120">120×</button>
+          <button type="button" data-speed="300">300×</button>
+        </div>
+        <span class="ai-status" id="ai-status"></span>
+      </div>
+    </section>
+
+    <aside class="panel">
+      <form class="viewer" id="viewer" aria-label="Your viewing preferences">
+        <div class="seg" role="group" aria-label="Watching as">
+          <span class="seg-label">Watching as</span>
+          <button type="button" data-mode="casual" aria-pressed="true">Fan</button>
+          <button type="button" data-mode="analyst" aria-pressed="false">Analyst</button>
+        </div>
+        <label>Language <select id="language"></select></label>
+        <label>My club <select id="fav-club"><option value="">None</option></select></label>
+        <label>Follow player <select id="fav-player"><option value="">None</option></select></label>
+        <label>Keep an eye on <select id="focus-metric">
+          <option value="">Nothing pinned</option>
+          <option value="xg">Chance quality (xG)</option>
+          <option value="possession">Possession</option>
+          <option value="shots">Shots</option>
+          <option value="pressures">Pressing, last 5 min</option>
+          <option value="pass_accuracy">Pass accuracy</option>
+          <option value="distance_km">Distance run</option>
+        </select></label>
+      </form>
+
+      <nav class="tabs" role="tablist">
+        <button role="tab" aria-selected="true" data-tab="moments">Moments</button>
+        <button role="tab" aria-selected="false" data-tab="match">Match</button>
+        <button role="tab" aria-selected="false" data-tab="player">Player</button>
+        <button role="tab" aria-selected="false" data-tab="agents">Agents</button>
+      </nav>
+
+      <div class="tab" id="tab-moments" role="tabpanel">
+        <ol class="feed" id="feed"><li class="hint">Moments appear here as the match unfolds.</li></ol>
+      </div>
+      <div class="tab" id="tab-match" role="tabpanel" hidden>
+        <div id="recap"></div>
+        <h3>Momentum</h3>
+        <canvas id="momentum-chart" height="90" aria-label="Momentum over the match"></canvas>
+        <div id="team-stats"></div>
+      </div>
+      <div class="tab" id="tab-player" role="tabpanel" hidden>
+        <div id="player-card"><p class="hint">Choose a player to follow above, or click one in the feed.</p></div>
+      </div>
+      <div class="tab" id="tab-agents" role="tabpanel" hidden>
+        <ol class="pipeline" id="pipeline">
+          <li data-agent="TacticalAnalyst">Tactical Analyst</li>
+          <li data-agent="BroadcastNarrator">Narrator</li>
+          <li data-agent="FactChecker">Fact Checker</li>
+          <li data-agent="Localizer">Localizer</li>
+        </ol>
+        <p class="pipeline-side"><span data-agent="RecapWriter">Recap Writer</span><span data-agent="Personalizer">Personalizer</span><span data-agent="PlayerSpotlight">Player Spotlight</span></p>
+        <div id="agent-summary" class="hint"></div>
+        <ol class="trace" id="trace"></ol>
+      </div>
+    </aside>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

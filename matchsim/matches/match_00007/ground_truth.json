@@ -1,0 +1,272 @@
+{
+  "final_score": {
+    "home": 0,
+    "away": 3
+  },
+  "tactical_changes": [
+    {
+      "team": "home",
+      "match_seconds": 3688,
+      "change": "high press, higher line, more direct play while trailing"
+    },
+    {
+      "team": "away",
+      "match_seconds": 4606,
+      "change": "dropped deep to protect the lead"
+    }
+  ],
+  "players": [
+    {
+      "id": "RIV-1",
+      "name": "Jonas Keller",
+      "distance_km": 8.04,
+      "running_km": 0.34,
+      "sprinting_km": 0.0,
+      "sprints": 0,
+      "top_speed_kmh": 0.0
+    },
+    {
+      "id": "RIV-6",
+      "name": "Felix Nakamura",
+      "distance_km": 11.52,
+      "running_km": 2.01,
+      "sprinting_km": 0.51,
+      "sprints": 21,
+      "top_speed_kmh": 31.9
+    },
+    {
+      "id": "RIV-36",
+      "name": "Rafael Castellano",
+      "distance_km": 11.05,
+      "running_km": 1.49,
+      "sprinting_km": 0.36,
+      "sprints": 18,
+      "top_speed_kmh": 29.6
+    },
+    {
+      "id": "RIV-8",
+      "name": "Elias Adeyemi",
+      "distance_km": 11.34,
+      "running_km": 2.09,
+      "sprinting_km": 0.51,
+      "sprints": 24,
+      "top_speed_kmh": 32.1
+    },
+    {
+      "id": "RIV-25",
+      "name": "Marco Bianchi",
+      "distance_km": 9.08,
+      "running_km": 1.63,
+      "sprinting_km": 0.29,
+      "sprints": 11,
+      "top_speed_kmh": 34.0
+    },
+    {
+      "id": "RIV-39",
+      "name": "Jamal Fontaine",
+      "distance_km": 7.21,
+      "running_km": 1.35,
+      "sprinting_km": 0.34,
+      "sprints": 16,
+      "top_speed_kmh": 32.7
+    },
+    {
+      "id": "RIV-15",
+      "name": "Noah Abara",
+      "distance_km": 11.52,
+      "running_km": 2.04,
+      "sprinting_km": 0.57,
+      "sprints": 24,
+      "top_speed_kmh": 33.0
+    },
+    {
+      "id": "RIV-3",
+      "name": "Jonas Adeyemi",
+      "distance_km": 12.12,
+      "running_km": 2.64,
+      "sprinting_km": 0.51,
+      "sprints": 23,
+      "top_speed_kmh": 31.8
+    },
+    {
+      "id": "RIV-4",
+      "name": "Mateo Holm",
+      "distance_km": 11.84,
+      "running_km": 2.51,
+      "sprinting_km": 0.54,
+      "sprints": 25,
+      "top_speed_kmh": 30.7
+    },
+    {
+      "id": "RIV-33",
+      "name": "Andre Keller",
+      "distance_km": 12.2,
+      "running_km": 2.73,
+      "sprinting_km": 0.71,
+      "sprints": 33,
+      "top_speed_kmh": 34.1
+    },
+    {
+      "id": "RIV-30",
+      "name": "Omar Nakamura",
+      "distance_km": 9.32,
+      "running_km": 1.88,
+      "sprinting_km": 0.49,
+      "sprints": 21,
+      "top_speed_kmh": 32.2
+    },
+    {
+      "id": "RIV-19",
+      "name": "Yusuf Quinn",
+      "distance_km": 4.68,
+      "running_km": 0.92,
+      "sprinting_km": 0.24,
+      "sprints": 10,
+      "top_speed_kmh": 32.7
+    },
+    {
+      "id": "RIV-9",
+      "name": "Leon Ibarra",
+      "distance_km": 2.33,
+      "running_km": 0.42,
+      "sprinting_km": 0.04,
+      "sprints": 2,
+      "top_speed_kmh": 29.2
+    },
+    {
+      "id": "RIV-28",
+      "name": "Jonas Holm",
+      "distance_km": 2.49,
+      "running_km": 0.5,
+      "sprinting_km": 0.2,
+      "sprints": 9,
+      "top_speed_kmh": 32.9
+    },
+    {
+      "id": "NGA-1",
+      "name": "Noah Osei",
+      "distance_km": 8.26,
+      "running_km": 0.16,
+      "sprinting_km": 0.0,
+      "sprints": 0,
+      "top_speed_kmh": 0.0
+    },
+    {
+      "id": "NGA-35",
+      "name": "Hugo Romero",
+      "distance_km": 11.19,
+      "running_km": 1.86,
+      "sprinting_km": 0.36,
+      "sprints": 16,
+      "top_speed_kmh": 32.8
+    },
+    {
+      "id": "NGA-3",
+      "name": "Mateo Petrov",
+      "distance_km": 6.55,
+      "running_km": 1.2,
+      "sprinting_km": 0.11,
+      "sprints": 5,
+      "top_speed_kmh": 30.6
+    },
+    {
+      "id": "NGA-15",
+      "name": "Noah Larsen",
+      "distance_km": 10.99,
+      "running_km": 1.45,
+      "sprinting_km": 0.36,
+      "sprints": 15,
+      "top_speed_kmh": 30.9
+    },
+    {
+      "id": "NGA-38",
+      "name": "Liam Quinn",
+      "distance_km": 11.72,
+      "running_km": 2.29,
+      "sprinting_km": 0.5,
+      "sprints": 22,
+      "top_speed_kmh": 32.6
+    },
+    {
+      "id": "NGA-25",
+      "name": "Hugo Quinn",
+      "distance_km": 8.95,
+      "running_km": 1.48,
+      "sprinting_km": 0.39,
+      "sprints": 17,
+      "top_speed_kmh": 31.2
+    },
+    {
+      "id": "NGA-11",
+      "name": "Caleb Keller",
+      "distance_km": 11.43,
+      "running_km": 1.84,
+      "sprinting_km": 0.59,
+      "sprints": 27,
+      "top_speed_kmh": 33.7
+    },
+    {
+      "id": "NGA-24",
+      "name": "Caleb Kowalski",
+      "distance_km": 11.53,
+      "running_km": 2.02,
+      "sprinting_km": 0.38,
+      "sprints": 17,
+      "top_speed_kmh": 29.4
+    },
+    {
+      "id": "NGA-19",
+      "name": "Mateo Okafor",
+      "distance_km": 11.49,
+      "running_km": 2.0,
+      "sprinting_km": 0.46,
+      "sprints": 20,
+      "top_speed_kmh": 32.4
+    },
+    {
+      "id": "NGA-2",
+      "name": "Hugo Varga",
+      "distance_km": 11.95,
+      "running_km": 2.62,
+      "sprinting_km": 0.62,
+      "sprints": 26,
+      "top_speed_kmh": 31.9
+    },
+    {
+      "id": "NGA-26",
+      "name": "Luca Castellano",
+      "distance_km": 9.31,
+      "running_km": 2.26,
+      "sprinting_km": 0.33,
+      "sprints": 16,
+      "top_speed_kmh": 31.1
+    },
+    {
+      "id": "NGA-4",
+      "name": "Mateo Brennan",
+      "distance_km": 3.94,
+      "running_km": 0.55,
+      "sprinting_km": 0.06,
+      "sprints": 3,
+      "top_speed_kmh": 29.6
+    },
+    {
+      "id": "NGA-33",
+      "name": "Niko Mendes",
+      "distance_km": 2.76,
+      "running_km": 0.6,
+      "sprinting_km": 0.13,
+      "sprints": 6,
+      "top_speed_kmh": 30.8
+    },
+    {
+      "id": "NGA-32",
+      "name": "Dario Quinn",
+      "distance_km": 2.49,
+      "running_km": 0.54,
+      "sprinting_km": 0.08,
+      "sprints": 3,
+      "top_speed_kmh": 30.1
+    }
+  ]
+}
