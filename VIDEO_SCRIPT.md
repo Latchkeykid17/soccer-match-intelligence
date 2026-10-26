@@ -4,7 +4,7 @@ Judges stop watching at 2:00, so keep it under. Record your screen with the Wind
 (Win + Alt + R) or OBS, and speak over it. **No music**: the rules forbid copyrighted material.
 
 **Before recording**
-- Open your live demo link in a fresh browser window, full screen.
+- In the codespace, from matchsim, run `uvicorn app.server:app --port 8000`, open the Ports tab and click the globe next to 8000, so the AI features work live. Full screen.
 - Pick the match marked "(AI explained)". Set the speed to 120×.
 - Set "Watching as" to Fan, Language to English, My club None, Follow player None.
 - Have the GitHub README open in a second tab, scrolled to the architecture diagram.
@@ -18,7 +18,7 @@ Judges stop watching at 2:00, so keep it under. Record your screen with the Wind
 | 1:05–1:20 | Change **Language** to Français, then Arabic | "Every moment is adapted into the viewer's language, using local football expressions only when they fit." |
 | 1:20–1:38 | Pick **My club**, then **Follow player**: the gold ring appears and the Player tab opens. Click **Ask the AI** | "Pick your club and the story is told from your side. Follow a player and you get their live stat card, ranked against everyone on the pitch, plus an AI spotlight." |
 | 1:38–1:46 | **Match** tab → scroll to **Download the data** | "Analysts can download every stat as a spreadsheet, or the full event feed for a data pipeline." |
-| 1:46–1:55 | Switch to the README diagram tab | "Microsoft Foundry, Agent Framework, Azure Container Apps, built with GitHub Copilot. MatchLens: every match, explained for every fan." |
+| 1:46–1:55 | Switch to the README diagram tab | "Microsoft Foundry and Agent Framework, built in GitHub Codespaces with GitHub Copilot. MatchLens: every match, explained for every fan." |
 
 **Upload:** YouTube → Create → Upload video. Title: "MatchLens: explainable live match intelligence".
 Visibility: **Public** or **Unlisted** (not Private), or judges can't watch it. Copy the link.

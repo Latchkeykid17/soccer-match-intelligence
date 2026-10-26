@@ -22,8 +22,9 @@
   async function boot() {
     S.config = await (await fetch("/api/config")).json();
     const status = $("ai-status");
-    status.textContent = S.config.ai_available ? `AI: ${S.config.ai}` : "AI offline: showing engine facts";
-    status.classList.toggle("live", S.config.ai_available);
+    status.textContent = S.config.status || (S.config.ai_available ? `AI: ${S.config.ai}` : "AI offline: showing engine facts");
+    status.classList.toggle("live", S.config.ai_available || !!S.config.status);
+    if (window.ML_STATIC) $("new-match").hidden = true;
     const lang = $("language");
     lang.innerHTML = `<option value="en">English</option>` + Object.entries(S.config.languages)
       .filter(([c]) => c !== "en").map(([c, n]) => `<option value="${c}">${n}</option>`).join("");
@@ -56,14 +57,14 @@
     const box = $("downloads");
     if (!box) return;
     const match = $("match-select").value;
-    const live = S.session && S.session.match_id && !$("pause").disabled;
-    const base = live ? `/api/session/${S.session.session}/export` : `/api/matches/${encodeURIComponent(match)}/export`;
+    const live = !window.ML_STATIC && S.session && S.session.match_id && !$("pause").disabled;
+    const base = window.ML_STATIC ? "data/export" : live ? `/api/session/${S.session.session}/export` : `/api/matches/${encodeURIComponent(match)}/export`;
     $("dl-note").textContent = live
       ? `Stats so far, up to ${$("clock").textContent}. Download again later for more.`
       : "Full-match data for the selected match.";
     box.innerHTML = DOWNLOADS.map(([file, label, help]) =>
       `<a class="dl" href="${base}/${file}" download title="${esc(help)}"><b>${esc(label)}</b><span>${esc(help)}</span></a>`).join("") +
-      `<a class="dl all" href="${base}.zip" download><b>Everything (ZIP)</b><span>All tables as CSV, the event feed, and a data dictionary.</span></a>` +
+      `<a class="dl all" href="${window.ML_STATIC ? "data/export" : base}.zip" download><b>Everything (ZIP)</b><span>All tables as CSV, the event feed, and a data dictionary.</span></a>` +
       (live ? `<a class="dl" href="/api/matches/${encodeURIComponent(match)}/export.zip" download><b>Full match instead (ZIP)</b><span>All 90+ minutes, without waiting.</span></a>` : "");
   }
 
@@ -424,9 +425,9 @@
     }).join("");
     $("player-card").innerHTML = `<div class="pcard"><span class="rating" title="Match rating">${p.rating}</span>
       <h4>${esc(p.name)}</h4><div class="sub">#${p.number} ${esc(p.position)} · ${esc(p.team_name)} · ${p.minutes_played} min</div>
-      <button type="button" id="spotlight-btn" ${S.session ? "" : "disabled"}>Ask the AI about ${esc(p.name.split(" ")[0])}'s match</button>
+      ${window.ML_STATIC ? `<p class="hint">Live AI spotlights run in the full app (see the demo video).</p>` : `<button type="button" id="spotlight-btn" ${S.session ? "" : "disabled"}>Ask the AI about ${esc(p.name.split(" ")[0])}'s match</button>`}
       ${spotHtml || ""}${sections}</div>`;
-    $("spotlight-btn").onclick = () => spotlight(p.player_id);
+    if ($("spotlight-btn")) $("spotlight-btn").onclick = () => spotlight(p.player_id);
   }
 
   async function spotlight(pid) {

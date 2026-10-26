@@ -37,7 +37,7 @@ market's language.
 - **Microsoft Foundry**: hosts the model deployment (gpt-4.1-mini) used by every agent.
 - **Microsoft Agent Framework**: seven specialised agents with structured outputs, coordinated by an
   orchestrator with shared match memory, fact-check feedback loops, retries and safe fallbacks.
-- **Azure Container Apps**: hosts the live web app; the API key is stored as a secret.
+- **Hosting**: the public demo replays an AI-explained match in the browser (GitHub Pages). The full app with live agents runs on FastAPI, with a ready-made Azure Container Apps deployment script.
 - **GitHub Codespaces + GitHub Copilot**: development environment and AI pair programmer.
 - Python, FastAPI with Server-Sent Events, and a vanilla JavaScript front end.
 
@@ -52,7 +52,7 @@ Best Multi-Agent System (also eligible for the Grand Prize).
 
 ## Links
 - GitHub repository: https://github.com/Latchkeykid17/soccer-match-intelligence
-- Live demo: _Azure Container Apps link_
+- Live demo: https://latchkeykid17.github.io/soccer-match-intelligence/
 - Demo video: _YouTube link_
 
 ## Testing instructions
