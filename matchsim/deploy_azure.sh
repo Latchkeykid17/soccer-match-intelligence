@@ -20,6 +20,7 @@ echo "== Preparing Azure Container Apps (first time takes a few minutes)"
 az extension add --name containerapp --upgrade -y -o none 2>/dev/null
 az provider register -n Microsoft.App --wait -o none
 az provider register -n Microsoft.OperationalInsights --wait -o none
+az provider register -n Microsoft.ContainerRegistry --wait -o none
 az group create -n "$RG" -l "$REGION" -o none
 
 echo "== Building and deploying $APP from this folder"

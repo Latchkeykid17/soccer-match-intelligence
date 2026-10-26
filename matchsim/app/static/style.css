@@ -147,6 +147,14 @@ button.quiet { background: transparent; }
 .stat .split { display: flex; height: 6px; border-radius: 3px; overflow: hidden; background: var(--stand-3); }
 .stat .split i { display: block; }
 
+.downloads { display: grid; gap: 6px; margin-top: 6px; }
+.dl { display: flex; flex-direction: column; gap: 2px; padding: 8px 12px; border: 1px solid var(--stand-3); border-radius: var(--radius-s); color: var(--text); text-decoration: none; background: var(--stand); }
+.dl:hover { border-color: var(--muted); }
+.dl b { font-weight: 600; font-size: 14px; }
+.dl span { font-size: 12px; color: var(--muted); }
+.dl.all { border-color: var(--flood); }
+.dl.all b { color: var(--flood); }
+
 .pcard h4 { margin: 4px 0 2px; font-size: 20px; font-variation-settings: "wdth" 80; }
 .pcard .sub { color: var(--muted); font-size: 13px; }
 .pcard .rating { float: right; font-weight: 900; font-variation-settings: "wdth" 110; font-size: 26px; color: var(--flood); }

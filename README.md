@@ -22,6 +22,7 @@ player.
 | **Explain** why moments matter | Seven agents (`agents/`): Tactical Analyst, Broadcast Narrator, Fact Checker, Localizer, Recap Writer, Personalizer, Player Spotlight |
 | **Render** alongside the match | `app/` streams a live pitch with overlay cards timed and placed by the engine (full banner, lower third, corner badge), a momentum chart and team numbers |
 | **Personalize** for every fan | Fan or Analyst mode, language, favourite club, followed player (highlighted on the pitch with a live stat card), and a pinned metric. The Personalizer rewrites moments for the viewer on demand |
+| **Data out** for analysts and pipelines | One-click downloads of player, team, moment and minute-by-minute stats as CSV (spreadsheets) or JSON Lines (pipelines), live or full match, with a data dictionary |
 
 ## Architecture
 
@@ -76,7 +77,7 @@ flowchart LR
   0.35 penalties, 11 km and 20 sprints per outfield player). See `matchsim/README.md`.
 - The simulator logs every tactical change it makes. On 40 unseen matches the engine detected
   **79%** of them within 12 minutes, and reported every goal.
-- **20 automated tests**, including fault injection: invented numbers, fact-checker rejections,
+- **22 automated tests**, including fault injection: invented numbers, fact-checker rejections,
   rate limits, dead agents and invalid JSON are all recovered from.
 
 ## Microsoft technology used
@@ -86,12 +87,18 @@ flowchart LR
 - **Azure Container Apps**: hosts the web app, with the API key stored as a secret
 - **GitHub Codespaces** and **GitHub Copilot**: development environment and coding assistant
 
+## Submitting (for the author)
+
+`cd matchsim && bash finish.sh` runs the tests, makes sure the demo match is AI-explained, saves
+to GitHub, deploys to Azure and fills in the demo link. After uploading the video:
+`bash finish.sh --video <link>`. The video plan is in `VIDEO_SCRIPT.md`.
+
 ## Run it
 
 ```bash
 cd matchsim
 pip install -r requirements.txt
-python -m pytest -q tests                                          # 20 tests, no Azure needed
+python -m pytest -q tests                                          # 22 tests, no Azure needed
 python explain_match.py matches/match_00007 --offline --limit 5    # agents with a stand-in model
 uvicorn app.server:app --port 8000                                 # web app on http://localhost:8000
 ```

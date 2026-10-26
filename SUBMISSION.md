@@ -24,6 +24,8 @@ overlays for each fan, in their language, for their club and player.
 - Renders it live on a pitch view with timed overlay cards, a momentum chart and team numbers.
 - Personalises it: Fan or Analyst mode, language, favourite club, a followed player (highlighted on
   the pitch with a live stat card and an AI spotlight), and a pinned metric.
+- Exports the data: one-click downloads of player, team, moment and minute-by-minute stats as CSV
+  for spreadsheets or JSON Lines for data pipelines, live or for the full match, with a data dictionary.
 
 ## Problem it solves
 Live football data is everywhere, but numbers alone don't tell fans why a moment matters, and one
@@ -42,7 +44,7 @@ market's language.
 ## What makes it trustworthy
 Numbers come from code, never from the model. Every number the AI writes is checked against the
 source data, and the Fact Checker reviews every claim. On failure, the overlay falls back to the
-engine's factual headline. 20 automated tests cover fault injection. On 40 unseen matches, the
+engine's factual headline. 22 automated tests cover fault injection. On 40 unseen matches, the
 engine detected 79% of the simulator's tactical changes.
 
 ## Category

@@ -270,6 +270,30 @@ The server picks a mode per match:
 
 **New match** generates a brand-new synthetic match on the spot.
 
+## Download the data
+
+The Match tab has a **Download the data** panel, also available through the API:
+
+| Download | Format | For |
+|---|---|---|
+| Player stats | `players.csv` | Every profile stat for every player (spreadsheets) |
+| Team stats | `teams.csv` | Both teams side by side |
+| Key moments | `moments.csv` | Engine headline, AI caption, fan and analyst text, fact-check result, evidence |
+| Minute by minute | `timeline.csv` | Score, possession, xG, shots, pressing and momentum per minute |
+| Event feed | `events.jsonl` | Every raw event, one JSON object per line (pipelines) |
+| Everything | `.zip` | All of the above plus `metadata.json` and a `DATA_DICTIONARY.md` |
+
+During a live match the files hold the stats so far; after it, the full match. Every table is
+also available as `.json` or `.jsonl`:
+
+```
+GET /api/matches/{match}/export/{players|teams|moments|timeline|events}.{csv|json|jsonl}
+GET /api/matches/{match}/export.zip
+GET /api/session/{session}/export/{table}.{format}      # stats so far in a live session
+```
+
+CSV files are UTF-8 with a byte-order mark, so Excel shows accented names correctly.
+
 ## Deploy to Azure
 
 `deploy_azure.sh` publishes the app to **Azure Container Apps** from Azure Cloud Shell. It stores

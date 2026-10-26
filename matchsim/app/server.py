@@ -19,7 +19,7 @@ import uuid
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import FileResponse, StreamingResponse
+from fastapi.responses import FileResponse, Response, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
@@ -30,6 +30,7 @@ os.chdir(ROOT)  # .env and matches/ are relative to the project folder
 from agents.clients import make_client  # noqa: E402
 from agents.orchestrator import LANGUAGE_NAMES, MatchIntelligence  # noqa: E402
 from engine.stats_engine import MatchEngine  # noqa: E402
+from app import exporter  # noqa: E402
 
 MATCHES = ROOT / "matches"
 STATIC = Path(__file__).resolve().parent / "static"
@@ -93,6 +94,7 @@ class Session:
         self.out = asyncio.Queue()
         self.work = asyncio.Queue()
         self.state = None
+        self.insights, self.states, self.seen_events = [], [], []
         self.score = {"home": 0, "away": 0}
         self.clock = "1'"
         self.vt = 0.0
@@ -143,6 +145,7 @@ class Session:
                 await self.wait_until(te)
                 ev = self.events[ei]
                 ei += 1
+                self.seen_events.append(ev)
                 self.score = ev.get("score", self.score)
                 self.clock = ev.get("clock", self.clock)
                 for item in self.engine.ingest(ev):
@@ -153,8 +156,10 @@ class Session:
         names = self.team.team_names
         if item["kind"] == "state":
             self.state = item
+            self.states.append(item)
             await self.send("state", compact_state(item, names))
             return
+        self.insights.append(item)
         if item["type"] in SUMMARIES:
             await self.work.put(("recap", item, None))
             return
@@ -331,6 +336,63 @@ async def spotlight(sid: str, body: SpotlightRequest):
         raise HTTPException(404, "unknown player")
     profile = s.engine.pstats.profile(body.player_id)
     return {"profile": profile, "spotlight": await s.team.spotlight(profile, body.viewer.model_dump())}
+
+
+def _download(rows_or_bytes, filename, media=None):
+    if isinstance(rows_or_bytes, bytes):
+        body, media_type = rows_or_bytes, media
+    else:
+        body, media_type = exporter.serialise(rows_or_bytes, filename.rsplit(".", 1)[1])
+    return Response(body, media_type=media_type,
+                    headers={"Content-Disposition": f'attachment; filename="{filename}"'})
+
+
+def _check_export(table, fmt):
+    if table not in exporter.TABLES or fmt not in exporter.FORMATS:
+        raise HTTPException(400, f"table must be one of {exporter.TABLES}, format one of {exporter.FORMATS}")
+
+
+def _load_full(match):
+    folder = MATCHES / match
+    if not (folder / "events.jsonl").exists():
+        raise HTTPException(404, "unknown match")
+    meta = json.load(open(folder / "metadata.json"))
+    events = read_jsonl(folder / "events.jsonl")
+    explained = {m["insight_id"]: m for m in read_jsonl(folder / "explained.jsonl")}
+    engine, insights, states = exporter.run_full_match(meta, events)
+    return meta, events, explained, engine, insights, states
+
+
+@app.get("/api/matches/{match}/export/{table}.{fmt}")
+def export_full(match: str, table: str, fmt: str):
+    """Full-match data: players, teams, moments, timeline or events as csv, json or jsonl."""
+    _check_export(table, fmt)
+    meta, events, explained, engine, insights, states = _load_full(match)
+    rows = exporter.build_table(table, engine, insights, states, events, explained)
+    return _download(rows, f"{match}_{table}.{fmt}")
+
+
+@app.get("/api/matches/{match}/export.zip")
+def export_full_bundle(match: str):
+    meta, events, explained, engine, insights, states = _load_full(match)
+    body = exporter.bundle(meta, engine, insights, states, events, explained)
+    return _download(body, f"{match}_data.zip", "application/zip")
+
+
+@app.get("/api/session/{sid}/export/{table}.{fmt}")
+def export_live(sid: str, table: str, fmt: str):
+    """The same tables, as of the current moment of a live session."""
+    _check_export(table, fmt)
+    s = get_session(sid)
+    rows = exporter.build_table(table, s.engine, s.insights, s.states, s.seen_events, s.team.explained)
+    return _download(rows, f"{s.dir.name}_{table}_so_far_{s.clock.replace(chr(39), '').replace('+', 'plus')}min.{fmt}")
+
+
+@app.get("/api/session/{sid}/export.zip")
+def export_live_bundle(sid: str):
+    s = get_session(sid)
+    body = exporter.bundle(s.meta, s.engine, s.insights, s.states, s.seen_events, s.team.explained)
+    return _download(body, f"{s.dir.name}_data_so_far.zip", "application/zip")
 
 
 @app.get("/")

@@ -36,9 +36,35 @@
 
   async function loadMatches(selectId) {
     const list = await (await fetch("/api/matches")).json();
+    $("match-select").onchange = renderDownloads;
     $("match-select").innerHTML = list.map((m) =>
       `<option value="${m.id}">${esc(m.home)} v ${esc(m.away)}${m.ai_explained ? " (AI explained)" : ""}</option>`).join("");
     if (selectId) $("match-select").value = selectId;
+    renderDownloads();
+  }
+
+  // ------------------------------------------------------------ downloads
+  const DOWNLOADS = [
+    ["players.csv", "Player stats", "Every player, every stat. Opens in Excel or Google Sheets."],
+    ["teams.csv", "Team stats", "Both teams side by side."],
+    ["moments.csv", "Key moments", "Each moment with the AI explanation and fact-check result."],
+    ["timeline.csv", "Minute by minute", "Score, possession, xG and momentum for every minute."],
+    ["events.jsonl", "Event feed (JSON Lines)", "Every raw event, for data pipelines."],
+  ];
+
+  function renderDownloads() {
+    const box = $("downloads");
+    if (!box) return;
+    const match = $("match-select").value;
+    const live = S.session && S.session.match_id && !$("pause").disabled;
+    const base = live ? `/api/session/${S.session.session}/export` : `/api/matches/${encodeURIComponent(match)}/export`;
+    $("dl-note").textContent = live
+      ? `Stats so far, up to ${$("clock").textContent}. Download again later for more.`
+      : "Full-match data for the selected match.";
+    box.innerHTML = DOWNLOADS.map(([file, label, help]) =>
+      `<a class="dl" href="${base}/${file}" download title="${esc(help)}"><b>${esc(label)}</b><span>${esc(help)}</span></a>`).join("") +
+      `<a class="dl all" href="${base}.zip" download><b>Everything (ZIP)</b><span>All tables as CSV, the event feed, and a data dictionary.</span></a>` +
+      (live ? `<a class="dl" href="/api/matches/${encodeURIComponent(match)}/export.zip" download><b>Full match instead (ZIP)</b><span>All 90+ minutes, without waiting.</span></a>` : "");
   }
 
   // ------------------------------------------------------------ controls
@@ -70,7 +96,7 @@
   function showTab(name) {
     document.querySelectorAll(".tabs button").forEach((b) => b.setAttribute("aria-selected", b.dataset.tab === name));
     document.querySelectorAll(".tab").forEach((t) => t.hidden = t.id !== "tab-" + name);
-    if (name === "match") drawMomentum();
+    if (name === "match") { drawMomentum(); renderDownloads(); }
     if (name === "player") refreshPlayer();
   }
 
@@ -150,6 +176,7 @@
     if (S.viewer.favourite_player && !S.players[S.viewer.favourite_player]) S.viewer.favourite_player = "";
     if (S.viewer.favourite_club && ![s.home.name, s.away.name].includes(S.viewer.favourite_club)) S.viewer.favourite_club = "";
     applyViewerToForm();
+    renderDownloads();
     const how = { precomputed: "AI-explained replay", live: "AI agents working live", engine: "Engine facts only" }[s.mode];
     $("agent-summary").textContent = `${how}. ${s.ai}.`;
   }
@@ -180,7 +207,7 @@
     phase.textContent = st.phase === "chaos" ? "Chaotic" : st.phase.startsWith("control_") ?
       `${S.session[st.phase.slice(8)].short} in control` : "";
     renderFocus();
-    if (!$("tab-match").hidden) { renderTeamStats(); drawMomentum(); }
+    if (!$("tab-match").hidden) { renderTeamStats(); drawMomentum(); renderDownloads(); }
     if (!$("tab-player").hidden && S.viewer.favourite_player) refreshPlayer();
   }
 
@@ -215,6 +242,7 @@
 
   function onEnd(e) {
     $("pause").disabled = true;
+    renderDownloads();
     const s = e.summary || {};
     if (s.agent_calls) $("agent-summary").textContent += ` Full time: ${s.agent_calls} agent calls, ${s.narrator_retries} fact-check retries, ${s.fallbacks} fallbacks.`;
   }
